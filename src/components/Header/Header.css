@@ -1,0 +1,34 @@
+.navbar{
+    background-color: var(--theme);
+    padding: 0.5rem 1.5rem;
+    position: sticky;
+    overflow-y: hidden;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: var(--white);
+    font-weight: 500; 
+    font-size: 1rem;
+    margin: 0;
+}
+.link{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.link:hover{
+    opacity: 1;
+    transition: all 0.3s;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.user-icon{
+    color: var(--white);
+}
